@@ -31,6 +31,11 @@ Valida uma migração de dados comparando **origem × destino**: registros falta
 
 `Python` `SQLAlchemy` `SQL` `pytest` `Data Quality`
 
+### [Person Dedup](https://github.com/henriqSouza00/person-dedup)
+Encontra **pessoas duplicadas** num cadastro e só junta com prova (mesmo CPF, mesmo nascimento, mesma família). Homônimos sem prova, CPF diferente e grafia parecida vão para revisão com o motivo. Trata CPF inválido e "data padrão" de nascimento, e gera os scripts SQL para conferir, aplicar com backup e desfazer.
+
+`Python` `SQL` `MySQL` `pytest` `Data Quality`
+
 ### [ETL Data Pipeline com Python](https://github.com/henriqSouza00/etl-data-pipeline-python)
 Pipeline completo que consome a API pública do IBGE, trata os dados com **pandas**, carrega em **SQLite ou MySQL** e alimenta um **dashboard no Power BI**.
 Estrutura em camadas (extract / transform / load), configuração por `.env`, logging e consultas SQL de análise.
@@ -38,7 +43,6 @@ Estrutura em camadas (extract / transform / load), configuração por `.env`, lo
 `Python` `pandas` `SQL` `MySQL` `Power BI`
 
 ### 🔜 Em construção
-- **Deduplicação de pessoas**: achar o mesmo cadastro com grafias diferentes, sem juntar homônimos
 - **Firebird → MySQL com Python**: extração, transformação, carga e conferência automática
 
 ## 📈 Aprendendo agora
