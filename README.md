@@ -1,26 +1,45 @@
-# Henrique Souza
+# Olá, eu sou o Henrique Souza 👋
 
-Data Analyst | Data Engineering (SQL, ETL, Data Quality)
+**Data Engineer · SQL · ETL · Data Quality** — São Paulo, SP
 
-## 📊 Sobre mim
-Atuo com análise, transformação e validação de dados em ambientes produtivos, com forte domínio em SQL (MySQL e Firebird).
+Trabalho com **migração e qualidade de dados** em ambientes de produção: levo dados de sistemas legados para bases novas, encontro inconsistências antes que virem problema e garanto que o que chega no destino bate com a origem.
 
-Tenho experiência prática com ETL, integração entre sistemas e identificação de inconsistências, garantindo a qualidade dos dados para tomada de decisão.
+## 🛠️ O que eu faço no dia a dia
 
-Atualmente evoluindo para Engenharia de Dados com Python e Apache Spark.
+- **Migração de dados** entre sistemas (Firebird → MySQL), com tabelas de staging e cargas reprocessáveis
+- **Validação e reconciliação**: comparo origem × destino (contagens, valores, órfãos, duplicados) e documento cada divergência
+- **Correção de dados em produção** com SQL seguro: conferência antes de alterar, backup e roteiro de execução
+- **Investigação de causa raiz** quando um relatório ou documento sai errado: rastreio do dado até a origem
 
-## 🚀 Skills
-- SQL (Avançado)
-- Python
-- ETL / Data Pipelines
-- Data Quality
-- MySQL / Firebird / MongoDB
-- APIs (Postman)
+## 🧰 Tecnologias
 
-## 📂 Projetos em destaque
-🔹 (em breve) Pipeline ETL com Python  
-🔹 (em breve) Análise de dados com SQL  
-🔹 (em breve) Integração de API + Banco de dados  
+![SQL](https://img.shields.io/badge/SQL-avançado-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Firebird](https://img.shields.io/badge/Firebird-F40F02?style=flat-square&logo=firebird&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+## 📂 Projetos
+
+### [ETL Data Pipeline com Python](https://github.com/henriqSouza00/etl-data-pipeline-python)
+Pipeline completo que consome a API pública do IBGE, trata os dados com **pandas**, carrega em **SQLite ou MySQL** e alimenta um **dashboard no Power BI**.
+Estrutura em camadas (extract / transform / load), configuração por `.env`, logging e consultas SQL de análise.
+
+`Python` `pandas` `SQL` `MySQL` `Power BI`
+
+### 🔜 Em construção
+- **Validador de migração**: compara duas bases e gera um relatório de divergências
+- **Firebird → MySQL com Python**: extração, transformação, carga e conferência automática
+
+## 📈 Aprendendo agora
+
+Python para engenharia de dados e **Apache Spark**.
 
 ## 📫 Contato
-LinkedIn: linkedin.com/in/henrique-souza99
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-henrique--souza99-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henrique-souza99)
