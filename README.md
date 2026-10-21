@@ -6,7 +6,7 @@ Trabalho com **migração e qualidade de dados** em ambientes de produção: lev
 
 ## 🛠️ O que eu faço no dia a dia
 
-- **Migração de dados** entre sistemas (Firebird → MySQL), com tabelas de staging e cargas reprocessáveis
+- **Migração de dados** a partir de **Firebird, SQL Server, MySQL e JSON** para MySQL, passando por tabelas de staging e com cargas reprocessáveis
 - **Validação e reconciliação**: comparo origem × destino (contagens, valores, órfãos, duplicados) e documento cada divergência
 - **Correção de dados em produção** com SQL seguro: conferência antes de alterar, backup e roteiro de execução
 - **Investigação de causa raiz** quando um relatório ou documento sai errado: rastreio do dado até a origem
