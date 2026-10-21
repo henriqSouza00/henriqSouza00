@@ -1,6 +1,6 @@
 # Olá, eu sou o Henrique Souza 👋
 
-**Data Engineer · SQL · ETL · Data Quality** — São Paulo, SP
+**Implantação e Migração de Dados · SQL · ETL · Data Quality** — São Paulo, SP
 
 Trabalho com **migração e qualidade de dados** em ambientes de produção: levo dados de sistemas legados para bases novas, encontro inconsistências antes que virem problema e garanto que o que chega no destino bate com a origem.
 
@@ -43,7 +43,7 @@ Estrutura em camadas (extract / transform / load), configuração por `.env`, lo
 
 ## 📈 Aprendendo agora
 
-Python para engenharia de dados e **Apache Spark**.
+Evoluindo para **Engenharia de Dados** com Python e Apache Spark.
 
 ## 📫 Contato
 
