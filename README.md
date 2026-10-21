@@ -26,6 +26,11 @@ Trabalho com **migração e qualidade de dados** em ambientes de produção: lev
 
 ## 📂 Projetos
 
+### [fb2mysql](https://github.com/henriqSouza00/fb2mysql)
+Migra um banco **Firebird para MySQL**: lê a estrutura, converte os tipos, carrega em lotes e confere origem × destino. Trata as armadilhas de sistema antigo: DATE do dialeto 1 com hora, NUMERIC guardado como DOUBLE, charset NONE em WIN1252, CHAR com espaços e a "data zero" do Delphi, registrando tudo o que alterou.
+
+`Python` `Firebird` `MySQL` `SQL` `pytest`
+
 ### [Migration Validator](https://github.com/henriqSouza00/migration-validator)
 Valida uma migração de dados comparando **origem × destino**: registros faltando, sobrando ou duplicados, valores diferentes coluna a coluna, somas financeiras e regras que precisam voltar vazias (parcelas órfãs, CPF repetido). Gera relatório em Markdown e tem testes com bases fictícias cheias de defeitos conhecidos.
 
@@ -41,9 +46,6 @@ Pipeline completo que consome a API pública do IBGE, trata os dados com **panda
 Estrutura em camadas (extract / transform / load), configuração por `.env`, logging e consultas SQL de análise.
 
 `Python` `pandas` `SQL` `MySQL` `Power BI`
-
-### 🔜 Em construção
-- **Firebird → MySQL com Python**: extração, transformação, carga e conferência automática
 
 ## 📈 Aprendendo agora
 
