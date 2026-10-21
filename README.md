@@ -26,6 +26,11 @@ Trabalho com **migração e qualidade de dados** em ambientes de produção: lev
 
 ## 📂 Projetos
 
+### [Migration Validator](https://github.com/henriqSouza00/migration-validator)
+Valida uma migração de dados comparando **origem × destino**: registros faltando, sobrando ou duplicados, valores diferentes coluna a coluna, somas financeiras e regras que precisam voltar vazias (parcelas órfãs, CPF repetido). Gera relatório em Markdown e tem testes com bases fictícias cheias de defeitos conhecidos.
+
+`Python` `SQLAlchemy` `SQL` `pytest` `Data Quality`
+
 ### [ETL Data Pipeline com Python](https://github.com/henriqSouza00/etl-data-pipeline-python)
 Pipeline completo que consome a API pública do IBGE, trata os dados com **pandas**, carrega em **SQLite ou MySQL** e alimenta um **dashboard no Power BI**.
 Estrutura em camadas (extract / transform / load), configuração por `.env`, logging e consultas SQL de análise.
@@ -33,7 +38,7 @@ Estrutura em camadas (extract / transform / load), configuração por `.env`, lo
 `Python` `pandas` `SQL` `MySQL` `Power BI`
 
 ### 🔜 Em construção
-- **Validador de migração**: compara duas bases e gera um relatório de divergências
+- **Deduplicação de pessoas**: achar o mesmo cadastro com grafias diferentes, sem juntar homônimos
 - **Firebird → MySQL com Python**: extração, transformação, carga e conferência automática
 
 ## 📈 Aprendendo agora
